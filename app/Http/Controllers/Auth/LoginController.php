@@ -41,6 +41,8 @@ class LoginController extends Controller
     }
 }
 
+// php artisan tinker
+
 // \App\Models\User::create([
 //     'name' => 'John Doe',
 //     'email' => 'johndoe@example.com',
