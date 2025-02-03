@@ -5,6 +5,16 @@ use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\ProductController;
 
+use App\Http\Controllers\Auth\LoginController;
+
+Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [LoginController::class, 'login']);
+Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware('auth');
+
+
 // 
 Route::get('/articles', [ArticleController::class, 'index'])->name('articles.index');
 Route::get('/articles/create', [ArticleController::class, 'create'])->name('articles.create');
