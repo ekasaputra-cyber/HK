@@ -40,7 +40,7 @@
             <a href="{{ url('/') }}" class="text-lg text-white hover:text-teal-700">Beranda</a>
             <a href="{{ route('articles.index') }}" class="text-lg text-white hover:text-teal-700">Artikel</a>
             <a href="{{ url('/toko') }}" class="text-lg text-white hover:text-teal-700">Toko</a>
-            <a href="{{ url('/comingsoon') }}" class="text-lg text-white hover:text-teal-700">Aplikasi</a>
+            <a href="{{ url('/app') }}" class="text-lg text-white hover:text-teal-700">Aplikasi</a>
             <a href="{{ url('/kontak') }}" class="text-lg text-white hover:text-teal-700">Kontak</a>
           </div>
         </nav>
@@ -57,7 +57,7 @@
             <li><a href="{{ url('/') }}" class="block text-lg text-gray-700 hover:text-teal-700">Beranda</a></li>
             <li><a href="{{ route('articles.index') }}" class="block text-lg text-gray-700 hover:text-teal-700">Artikel</a></li>
             <li><a href="{{ url('/toko') }}" class="block text-lg text-gray-700 hover:text-teal-700">Toko</a></li>
-            <li><a href="{{ url('/comingsoon') }}" class="block text-lg text-gray-700 hover:text-teal-700">Aplikasi</a></li>
+            <li><a href="{{ url('/app') }}" class="block text-lg text-gray-700 hover:text-teal-700">Aplikasi</a></li>
             <li><a href="{{ url('/kontak') }}" class="block text-lg text-gray-700 hover:text-teal-700">Kontak</a></li>
         </ul>
         </div>

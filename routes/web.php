@@ -42,4 +42,4 @@ Route::post('/produk', [ProductController::class, 'store'])->name('products.stor
 
 
 // routes/web.php
-Route::get('/comingsoon', [LandingPageController::class, 'index'])->name('landing');
+Route::get('/app', [LandingPageController::class, 'index'])->name('landing');
